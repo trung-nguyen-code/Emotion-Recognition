@@ -1,0 +1,54 @@
+{
+  "git.autofetch": true,
+  "git.autorefresh": true,
+  "editor.cursorStyle": "line",
+  "terminal.integrated.env.windows": {},
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.formatting.provider": "none",
+  "scm.alwaysShowActions": false,
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact"
+  },
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "emmet.triggerExpansionOnTab": true,
+  "prettier.endOfLine": "lf",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "eslint.validate": ["typescriptreact"],
+  "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.tabs.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorCustomizations": {},
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "none",
+  "prettier.trailingComma": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true
+}
